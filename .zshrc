@@ -1,3 +1,5 @@
+export LC_ALL=en_IN.UTF-8
+export LANG=en_IN.UTF-8
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -108,12 +110,3 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-# bun completions
-[ -s "/home/ayush/.bun/_bun" ] && source "/home/ayush/.bun/_bun"
-
-# bun
-export BUN_INSTALL="$HOME/.bun"
-export PATH="$HOME/.local/cmake/bin:$PATH"
-export PATH="$BUN_INSTALL/bin:$PATH"
-
-[ -f "/home/ayush/.ghcup/env" ] && source "/home/ayush/.ghcup/env" # ghcup-env
